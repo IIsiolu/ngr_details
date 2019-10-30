@@ -1,0 +1,40 @@
+{
+  "name": "ngr_details",
+  "version": "1.0.0",
+  "description": "informations about nigeria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -- server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIsiolu/ngr_details.git"
+  },
+  "keywords": [
+    "nigeria"
+  ],
+  "author": "ikenna isiolu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIsiolu/ngr_details/issues"
+  },
+  "homepage": "https://github.com/IIsiolu/ngr_details#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.1",
+    "eslint-plugin-import": "^2.16.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "nodemon": "^1.19.2",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0"
+  }
+}
